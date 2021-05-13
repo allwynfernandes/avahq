@@ -34,6 +34,9 @@
         - ava remind me
         - ava tell
         - ava shop
+        - # ( FUTURE INTENT and nice to haves)
+        - ava search # (Search google for a string, returns a text body with url)
+        - ava short {url} (returns shorted url) 
     - dt_created
     - dt_updated
 
