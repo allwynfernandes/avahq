@@ -18,12 +18,12 @@ HOOKLIST = {
 
     'do' : ['ava do ', '/do ', '/d '],
     'save' : ['ava save ', '/save ', '/s ', ],
-    'bookmark' : ['ava bookmark', '/bookmark', '/b', 'http', 'file:', 'www'],
+    'bookmark' : ['ava bookmark ', '/bookmark ', '/b ', 'http', 'file:', 'www'], # Not sure about bookmark, wont work with play.io etc 
     'show' : ['ava show ', '/show ', '/o '],
     'remind' : ['ava remind  ', '/remind ', '/r ']
 }
 
-INTENTLIST = ['do', 'save', 'show', 'remind']
+INTENTLIST = ['do', 'save', 'show', 'bookmark', 'remind']
 
 
 DIAPROMPTS = {
