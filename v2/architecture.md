@@ -1,3 +1,39 @@
+
+# Clip
+Learn regex:
+https://cheatography.com/davechild/cheat-sheets/regular-expressions/
+
+
+
+https://www.youtube.com/watch?v=0Vy-x6YRFGw
+PYBOT tute automagic: 
+https://www.youtube.com/watch?v=KRn2xb1bxXM
+
+https://dev.to/lordghostx/building-a-telegram-bot-with-python-and-fauna-494i
+
+
+https://www.youtube.com/watch?v=NwBWW8cNCP4
+
+
+https://www.youtube.com/watch?v=7qJFtGi0hNQ
+
+
+https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUpdates?offset=0
+
+# Flow
+## Storage
+- User sends a message to Ava bot on telegram. `ava remind me to call joshua on tuesday`
+- The message is read by the bot, sent through the `which command` test to route the message to the right command channel.
+- The message is broken into its constituent parts: `from_user_id`, `question_hook`, `body`, `dt_extracted`, `dt_created`
+- If the message is of ava type `ava remind` its remind date is extracted and stored in `dt_extracted` in the `responses` collection
+- A response message is sent to user `Message saved! 🐶`
+
+
+## Reply
+- Every day at 7:30am the responses db is filtered on `dt_extracted` for records with date of today.
+- These records are made into a pretty formatted string and stored as a message in a single variable
+- The variable is then sent as a message via Telegram to the user.
+
 # Requirements
 
 - Store data about questions, users, contacts, responses
