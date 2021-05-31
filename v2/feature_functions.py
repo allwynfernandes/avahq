@@ -1,6 +1,8 @@
 import os
+import logging
 import datetime
 import parsedatetime
+import pandas as pd
 
 API_KEY = os.getenv('API_KEY')
 

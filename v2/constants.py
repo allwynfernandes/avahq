@@ -4,16 +4,26 @@ HOOKLIST = {
     'unique' : ['ava unique ', '.au ' ],
     'word' : ['ava word ', '.aw '],
     'score': ['ava score ', '.as '],
-    'cause' : ['ava cause', '.ac '],
+    'cause' : ['ava cause', '.ay '],
     'awesome' : ['ava awesome ', '.aa '],
     'upset' : ['ava upset ', '.ap '],
     'regret' : ['ava regret ', '.ar '],
+    'impove' : ['ava improve ', '.ai '],
+    'myself' : ['ava myself ', '.am'],
+    'grateful' : ['ava grateful ', '.ag ' ],
+    'forgive' : ['ava forgive ', '.af '],
+    'connect' : ['ava connect ', '.ac '],
+
+
+
     'do' : ['ava do ', '/do ', '/d '],
-    'save' : ['ava save ', '/save ', '/s '],
+    'save' : ['ava save ', '/save ', '/s ', ],
+    'bookmark' : ['ava bookmark', '/bookmark', '/b', 'http', 'file:', 'www'],
     'show' : ['ava show ', '/show ', '/o '],
     'remind' : ['ava remind  ', '/remind ', '/r ']
 }
 
+INTENTLIST = ['do', 'save', 'show', 'remind']
 
 
 DIAPROMPTS = {
@@ -26,15 +36,14 @@ DIAPROMPTS = {
 "upset" : "Upset of the day?",
 "regret" : "What did you regret today?",
 "difftomorrow" : "What would you want to do differently tomorrow?",
-"imptomorrow" : "What would you want to improve tomorrow?",
+"impove" : "What would you want to improve tomorrow?",
 "dotomorrow" : "Top activity of tomorrow?",
 "presence" : "Today's realization of presence?",
 "self" : "Today's realization about self?",
 "grateful" : "5 things you are grateful for today?",
 "forgive" : "Who would you like to forgive today?",
 "connect" : "Who did you connect with today and what did you speak?",
-"file" : "Any attachments you would like to share?",
-"entry" : "Did you make today's dia entry?"
+"bookmark" : "Any attachments you would like to share?",
 }
 
 

@@ -1,7 +1,10 @@
 # # Actions:
-# [[2021-05-31]] 
-# DONE:
+# [[2021-05-31]] DONE:
 # * HOOKLIST, DIAPROMPTS, hook_extractor, date_extractor 
+# [[2021-05-31]] DONE:
+# * Added bookmark hook to HOOKLIST, made Message class
+#
+#
 # NEXT:
 # * Implement message receval
 # * watch https://www.youtube.com/watch?v=PTAkiukJK7E
@@ -33,7 +36,7 @@ from constants import *
 try:
     while True:
         m = input("Message: ")
-        print(hook_extractor(m, HOOKLIST))
+        print(extract_hook(m, HOOKLIST))
 except:
     print('\b\b\b \nbye')
 # Testing
