@@ -21,6 +21,9 @@ https://www.youtube.com/watch?v=7qJFtGi0hNQ
 https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUpdates?offset=0
 
 # Flow
+## Concepts
+- Each message has a tag. A tag could be a `hook` or an `intent`. If its a hook, its extracted and the message stored in the db. If its an intent. It needs to be acted upon. 
+
 ## Storage
 - User sends a message to Ava bot on telegram. `ava remind me to call joshua on tuesday`
 - The message is read by the bot, sent through the `which command` test to route the message to the right command channel.
@@ -77,9 +80,9 @@ https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUp
     - dt_updated
 
 - Response Collection
-    - response_id
+    - message_id
     - body
-    - question_hook # (This is the intent of the response)
+    - hook # (This is the intent of the response)
     - dt_extracted # (Date extracted from response body. Useful for reminders.)
     - from_user_id
     - mentions
@@ -144,3 +147,10 @@ https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUp
 # Notes
 Browser Link:
 https://api.telegram.org/bot<token>/getUpdates
+
+
+# Features
+- `ava timeit` to keep track of amount of time given to a task or project per day. Add an entry with `/t fullstackopen 3h`. Adjust with `/t fullstackopen remove 2h` See progress with `ava show timeit fullstackopen 7 days`. For top tasks you spent most of your time on `ava show timeit top 10 month`
+
+
+

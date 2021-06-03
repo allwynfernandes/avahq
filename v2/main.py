@@ -14,9 +14,9 @@
 # * Message storing in mongo
 # * Implement: serviceMessage = "No intent found, saved message as default"
 #
-# [[2021-05-31]] DONE:
+# [[2021-06-01]] DONE:
 # * Added bookmark hook to HOOKLIST, made Message class and put in its own module,
-# NEXT:
+# NEXT:t
 # pretty much worthless using others pybot modules, instead make your own framework for fun
 # * Study official python API https://core.telegram.org/bots/api
 # * https://core.telegram.org/bots/api#deletemessage; 
@@ -24,75 +24,50 @@
 # * pure api bot https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/rawapibot.py
 # * watch https://www.youtube.com/watch?v=PTAkiukJK7E; https://www.youtube.com/watch?v=NwBWW8cNCP4
 
+# [[2021-06-03]] DONE:
+#  * Bot now accepts and stores messages in mongodb. Created mongodb collection for responses. Details in env. Added save_to_db to message class.
+# NEXT:
+# Work on the bot class
+# * Read for fuzzy contact names search https://docs.atlas.mongodb.com/reference/atlas-search/text/#fields ; https://stackoverflow.com/questions/44833817/mongodb-full-and-partial-text-search
 
+API_KEY = ""
+MONGO_CONNECTION = ""
 
-
-import os
 import logging
 import datetime
 import parsedatetime
+from pymongo import MongoClient
 
-from messageobj import Message
-from feature_functions import *
-from common_functions import *
+
 from constants import *
-
-from telegram.ext import Updater
-
-
+from messageobj import Message
+# from feature_functions import *
+# from common_functions import *
 
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
 
-
-
-
+# Set constants and creds and initiate variables
+client = MongoClient(MONGO_CONNECTION)
+RESPONSES = ""
+CONTACTS = ""
 
 
 print(f"Bot started at {str(datetime.datetime.now())}") 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# bot = telegram.Bot(token=TOKEN)
-# print(bot.get_me())
-
-
-
 # Testing 
-# try:
-# while True:
-#     m = input("Message: ")
-#     message = Message('23', '@kaf23', m)
-#     message.extract_hook(HOOKLIST, INTENTLIST)
-#     print(message.hook, message.body, message.intentFound )
-# except (KeyboardInterrupt):
-# print("Bye")
-# # print('\b\b\b \nbye')
+
+try:
+    while True:
+        m = input("Message: ")
+        message = Message('23', '@kaf23', m, HOOKLIST, INTENTLIST, RESPONSES)
+        # print(message.hook,"|", message.body,"|", message.title, "|", message.intentFound, message.hookFound )
+        print(message.dbDocument)
+        [print(x) for x in message.searchResult]
+except (KeyboardInterrupt):
+    print("Bye")
+
 # Testing

@@ -3,7 +3,6 @@ import os
 import logging
 import datetime
 import parsedatetime
-import pandas as pd
 from constants import *
 
 
