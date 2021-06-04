@@ -1,6 +1,6 @@
 #  First item of hook value should also be 'ava x' where x is the action.
 HOOKLIST = {
-    'read' : ['ava read ', '.ak '], 
+    'learn' : ['ava learn ', '.al '], # What did you learn today. Reading, watching videos online, external sources.
     'unique' : ['ava unique ', '.au ' ],
     'word' : ['ava word ', '.aw '],
     'dayscore': ['ava dayscore ', '.ad '],
@@ -17,19 +17,21 @@ HOOKLIST = {
 
 
 
+
     'do' : ['ava do ', '/do ', '/d '],
     'bookmark' : ['ava bookmark ', '/bookmark ', '/b ', 'http', 'file:', 'www'], # Not sure about bookmark, wont work with play.io etc 
     'show' : ['ava show ', '/show ', '/o '],
     'remind' : ['ava remind ', '/remind ', '/r ', 'ava remind me '],
     'timeit' : ['ava timeit ', '/timeit ', '/t '],
-    'shorten' : ['ava shorten ', 'ava short ' ] # shorten url
+    'shorten' : ['ava shorten ', 'ava short ' ], # shorten url
+    'help' : ['ava help ', '/help ']
 }
 
-INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit']
+INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
 
 
 DIAPROMPTS = {
-"read" : "Which article did you read today?",
+"learn" : "Which article did you read today?",
 "unique" : "What was unique about today?",
 "words" : "Describe the day in 3 words?",
 "dayscore" : "What's today's sentiment score vs yesterday?",

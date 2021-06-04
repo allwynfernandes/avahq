@@ -1,9 +1,8 @@
 import logging
 import datetime
 import parsedatetime
-from constants import *
 from pymongo import MongoClient
-
+from constants import *
 
 class Message:
     '''
@@ -25,14 +24,18 @@ class Message:
     intentFound: Booleen
     '''
 
-    def __init__(self, messageId, fromUserId, message, HOOKLIST, INTENTLIST, collection, dbSearchQuery=None):
+    def __init__(self, chatId, messageId, fromUserId, username, message, HOOKLIST, INTENTLIST, collection, dbSearchQuery=None):
+        self.chatId = chatId
         self.messageId = messageId
         self.fromUserId = fromUserId
+        self.username = username
         self.message = message
         self.dtCreated = datetime.datetime.now()
         self.hookFound = False
         self.intentFound = False
         self.isReminder = False
+        self.dtExtracted = datetime.datetime(1970,1,1) # Default value for date to satisfy mongoDB insert command
+
 
         self.extract_hook(HOOKLIST, INTENTLIST)
         self.execute_hook(collection, dbSearchQuery=None)
@@ -77,9 +80,9 @@ class Message:
 
 
     def execute_hook(self, collection, dbSearchQuery=None):
-        self.dtExtracted = datetime.datetime(1970,1,1) # Default value for date to satisfy mongoDB insert command
         if not self.intentFound:
-            pass # If no intent then just save the message to db and send a 'message saved' service message to user
+            self.save_to_db(collection)
+            self.serviceReply = "💌" # If no intent then just save the message to db and send a 'message saved' service message to user
         else: # Note to self: maybe I'll create an intent class that lives in another file and I just call it here. 
             if self.hook == 'bookmark':
                 pass
@@ -91,11 +94,16 @@ class Message:
             elif self.hook == 'remind':
                 self.isReminder = True
                 self.dtExtracted =  self.extract_date()
+                self.save_to_db(collection)
+                self.serviceReply = "⏰" # If no intent then just save the message to db and send a 'message saved' service message to user
+
             elif self.hook == 'timeit':
                 pass
+            elif self.hook == 'help':
+                self.serviceReply = "This is a help text"
             else:
                 pass
-        self.save_to_db(collection)
+
             # Once intent is executed a service message ("jobs done") message needs to be sent to the user
             # Im not sure if this should be done by the message class or the bot class. As on [[2021-06-03]]
             # self.send_service_message("The x intent has been executed")
