@@ -1,0 +1,15 @@
+---
+application:
+  name: "avahq"
+  project: "random-project-1"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "avahqdb"
+  version: "4.4"
+routers:
+- name: "main-avahq"
+  routes:
+  - application_name: "avahq"
+    paths:
+    - "/*"
