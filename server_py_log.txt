@@ -163,3 +163,19 @@
 2021-06-08 00:06:48,561 - root - INFO - Update ID: 607929658
 2021-06-08 00:06:48,562 - root - INFO - Update Value: {'ok': True, 'result': []}
 2021-06-08 00:06:48,562 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:26:37,663 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:26:37,666 - root - INFO - Bot Started Successfully at: 2021-06-08 00:26:37.666665
+2021-06-08 00:32:11,824 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:32:11,826 - root - INFO - Bot Started Successfully at: 2021-06-08 00:32:11.826006
+2021-06-08 00:32:34,224 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:32:34,224 - root - INFO - Bot Started Successfully at: 2021-06-08 00:32:34.224764
+2021-06-08 00:33:07,816 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:33:07,816 - root - INFO - Bot Started Successfully at: 2021-06-08 00:33:07.816845
+2021-06-08 00:33:12,471 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:33:12,471 - root - INFO - Bot Started Successfully at: 2021-06-08 00:33:12.471556
+2021-06-08 00:33:31,827 - root - INFO - Update ID: None
+2021-06-08 00:33:31,827 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929659, 'message': {'message_id': 149, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623092611, 'text': '.as jijo testing save'}}]}
+2021-06-08 00:33:31,827 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:33:31,828 - root - INFO - this is item{'update_id': 607929659, 'message': {'message_id': 149, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623092611, 'text': '.as jijo testing save'}}
+2021-06-08 00:33:31,828 - root - INFO - Pushing data to database
+2021-06-08 00:33:31,832 - root - INFO - Message: (False, 'save', 'jijo testing save', '💌') 

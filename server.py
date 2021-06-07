@@ -20,6 +20,7 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 
 API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
+
 client = MongoClient(MONGO_CONNECTION)
 RESPONSES = client.get_database("avahqtest").get_collection("responses")
 CONTACTS = client.get_database("avahqtest").get_collection("contacts")
@@ -36,52 +37,53 @@ print(f"Bot started at {str(datetime.datetime.now())}")
 bot = Bot()
 update_id = None
 
-while True:
-    print("...")
-    updates = bot.get_updates(offset=update_id)
-    logging.info(f"Update ID: {update_id}")
-    logging.info(f"Update Value: {updates}")
-    print(updates)
-    updates = updates['result']
 
-    logging.info("Updates received, Commence looping over elements")
-    if updates:
-        for item in updates:
-            logging.info(f"this is item{item}")
-            update_id = item['update_id']
-            try:
-                messageId = item['message']['message_id']
-                message = item['message']['text']
-                username = item['message']['from']['username']
-                chatId = item['message']['chat']['id']
-                fromUserId = item['message']['from']['id']
-                fname = item['message']['from']['first_name']
+def main(update_id):
+    while True:
+        print("...")
+        updates = bot.get_updates(offset=update_id)
+        logging.info(f"Update ID: {update_id}")
+        logging.info(f"Update Value: {updates}")
+        print(updates)
+        updates = updates['result']
 
-
-            except:
-                messageId = None
-                message = None
-                username = None
-                chatId = None
-                fromUserId = None
-                fname = None
-
-            updateId = update_id
+        logging.info("Updates received, Commence looping over elements")
+        if updates:
+            for item in updates:
+                logging.info(f"this is item{item}")
+                update_id = item['update_id']
+                try:
+                    messageId = item['message']['message_id']
+                    message = item['message']['text']
+                    username = item['message']['from']['username']
+                    chatId = item['message']['chat']['id']
+                    fromUserId = item['message']['from']['id']
+                    fname = item['message']['from']['first_name']
 
 
-            # Here on, call the Message class and do message stuff from main.py
-            logging.info("Pushing data to database")
-            if message != None:
-                order = Message(updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, RESPONSES)
-                logging.info(f"Message: {order.intentFound, order.hook, order.body, order.serviceReply} ")
-                if order.intentFound:
-                    reply = order.serviceReply
-                    bot.send_message(reply,fromUserId)
+                except:
+                    messageId = None
+                    message = None
+                    username = None
+                    chatId = None
+                    fromUserId = None
+                    fname = None
+
+                updateId = update_id
 
 
+                # Here on, call the Message class and do message stuff from main.py
+                logging.info("Pushing data to database")
+                if message != None:
+                    order = Message(updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, RESPONSES)
+                    logging.info(f"Message: {order.intentFound, order.hook, order.body, order.serviceReply} ")
+                    if order.intentFound:
+                        reply = order.serviceReply
+                        bot.send_message(reply,fromUserId)
 
 
-
+if __name__ == '__main__':
+    main(update_id)
 
 
 
