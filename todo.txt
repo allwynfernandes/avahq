@@ -42,3 +42,8 @@
 # [[2021-06-08]] DONE:
 # * Made bugfree
 # * Trying deploy to qovery
+# * Unsuccessful deploy. Next step install docker and see if it runs
+# * Tutorial on: https://docs.qovery.com/docs/using-qovery/configuration/databases/mongodb/
+# * Tute learn docker: https://www.youtube.com/watch?v=bi0cKgmRuiA
+# * Qovery tute: https://www.youtube.com/watch?v=9fXyUKRqjRQ; https://www.youtube.com/watch?v=kdCt26vyzgs
+# * Qovery website: https://console.qovery.com/platform/organization/zslbgcfanc6r2nbs/projects/e9jphldoimww7w8e/dj1xpy6b6gxqax5p?logs=1
