@@ -1,4 +1,4 @@
 FROM python:3.8
 ADD server.py .
-RUN pip pymongo parsedatetime 
+RUN pip install pymongo parsedatetime 
 CMD [ "python", "./server.py" ]
