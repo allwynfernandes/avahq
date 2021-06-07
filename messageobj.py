@@ -4,6 +4,8 @@ import parsedatetime
 from pymongo import MongoClient
 from constants import *
 
+
+
 class Message:
     '''
     Input::
@@ -24,10 +26,12 @@ class Message:
     intentFound: Booleen
     '''
 
-    def __init__(self, chatId, messageId, fromUserId, username, message, HOOKLIST, INTENTLIST, collection, dbSearchQuery=None):
+    def __init__(self, updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, collection, dbSearchQuery=None):
+        self.updateId = updateId
         self.chatId = chatId
         self.messageId = messageId
         self.fromUserId = fromUserId
+        self.fname = fname
         self.username = username
         self.message = message
         self.dtCreated = datetime.datetime.now()
@@ -85,12 +89,25 @@ class Message:
             self.serviceReply = "💌" # If no intent then just save the message to db and send a 'message saved' service message to user
         else: # Note to self: maybe I'll create an intent class that lives in another file and I just call it here. 
             if self.hook == 'bookmark':
-                pass
+                self.save_to_db(collection)
+                self.serviceReply = "Feature under development 💌" 
+
             elif self.hook == 'show':
-                if 'reminders' in self.message.lower():
-                    dbSearchQuery = {"isReminder" : "True"}
-                    self.searchResult = self.search_db(collection, dbSearchQuery, {'_id':0, 'title':1, 'dtExtracted':1})
-                    
+                if 'reminders' in self.message.lower(): #TODO: Implement querying mongodb via python
+                    pass
+                    # working mongo query:  db.responses.find({$and: [{'isReminder':true}, {dtExtracted:{$gt:ISODate('2021-05-01')}} ]},{_id:0, title:1, dtExtracted:1})
+                    # self.dbSearchQuery = db.responses.find({$and: [{'isReminder':true}, {'dtExtracted':{$gt:ISODate({self.dtCreated.isoformat()})}} ]},{'_id':0, 'title':1, 'dtExtracted':1})"
+                    # self.dbProjection = {'_id':0, 'title':1, 'dtExtracted':1}
+                    # self.searchResult = self.search_db(collection)
+                self.serviceReply = "Feature under development 💌" 
+
+
+            elif self.hook == 'do':
+                self.serviceReply = "Feature under development 💌" 
+
+            elif self.hook == 'shorten':
+                self.serviceReply = "Feature under development 💌" 
+
             elif self.hook == 'remind':
                 self.isReminder = True
                 self.dtExtracted =  self.extract_date()
@@ -98,9 +115,11 @@ class Message:
                 self.serviceReply = "⏰" # If no intent then just save the message to db and send a 'message saved' service message to user
 
             elif self.hook == 'timeit':
-                pass
+                self.serviceReply = "Feature under development 💌" 
+
             elif self.hook == 'help':
-                self.serviceReply = "This is a help text"
+                self.serviceReply = HELPTEXT+JOURNALTAGS
+
             else:
                 pass
 
@@ -120,13 +139,17 @@ class Message:
         return  cal.parseDT(self.message, self.dtCreated)[0]
 
 
-    def search_db(self, collection, dbSearchQuery, projection):
-        return collection.find(dbSearchQuery, projection)
+    def search_db(self, collection):
+        return collection.find(self.dbSearchQuery, self.dbProjection)
         
 
     def save_to_db(self, collection):
         self.dbDocument = {
+            'updateId' : self.updateId,
+            'chatId' : self.chatId,
             'messageId' : self.messageId,
+            'fromUserId' : self.fromUserId,
+            'username' : self.username,
             'body' : self.body,
             'title' : self.title,
             'hook' : self.hook,

@@ -1,0 +1,165 @@
+2021-06-07 23:16:51,133 - root - INFO - Constants and Keys loaded successfully
+2021-06-07 23:16:51,133 - root - INFO - Bot Started Successfully at: 2021-06-07 23:16:51.133512
+2021-06-07 23:16:51,729 - root - INFO - Update ID: None
+2021-06-07 23:16:51,730 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929651, 'message': {'message_id': 139, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623084963, 'text': 'Ava show response reply heart'}}]}
+2021-06-07 23:16:51,730 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:16:51,730 - root - INFO - Pushing data to database
+2021-06-07 23:16:51,731 - root - INFO - Message: (True, 'show', 'response reply heart') 
+2021-06-07 23:19:31,092 - root - INFO - Constants and Keys loaded successfully
+2021-06-07 23:19:31,093 - root - INFO - Bot Started Successfully at: 2021-06-07 23:19:31.093003
+2021-06-07 23:19:31,604 - root - INFO - Update ID: None
+2021-06-07 23:19:31,604 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929651, 'message': {'message_id': 139, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623084963, 'text': 'Ava show response reply heart'}}]}
+2021-06-07 23:19:31,604 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:19:31,604 - root - INFO - Pushing data to database
+2021-06-07 23:19:31,605 - root - INFO - Message: (True, 'show', 'response reply heart', 'Feature under development 💌') 
+2021-06-07 23:20:02,618 - root - INFO - Update ID: 607929651
+2021-06-07 23:20:02,618 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929652, 'message': {'message_id': 141, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623088202, 'text': '/ti working on feature', 'entities': [{'offset': 0, 'length': 3, 'type': 'bot_command'}]}}]}
+2021-06-07 23:20:02,619 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:20:02,619 - root - INFO - Pushing data to database
+2021-06-07 23:20:02,624 - root - INFO - Message: (False, 'default', '/ti working on feature', '💌') 
+2021-06-07 23:20:53,106 - root - INFO - Update ID: 607929652
+2021-06-07 23:20:53,107 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:20:53,107 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:21:04,551 - root - INFO - Update ID: 607929652
+2021-06-07 23:21:04,552 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929653, 'message': {'message_id': 142, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623088264, 'text': '/t testing time it', 'entities': [{'offset': 0, 'length': 2, 'type': 'bot_command'}]}}]}
+2021-06-07 23:21:04,552 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:21:04,553 - root - INFO - Pushing data to database
+2021-06-07 23:21:04,553 - root - INFO - Message: (True, 'timeit', 'testing time it', 'Feature under development 💌') 
+2021-06-07 23:21:55,857 - root - INFO - Update ID: 607929653
+2021-06-07 23:21:55,858 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:21:55,858 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:22:46,512 - root - INFO - Update ID: 607929653
+2021-06-07 23:22:46,513 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:22:46,513 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:23:37,059 - root - INFO - Update ID: 607929653
+2021-06-07 23:23:37,059 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:23:37,059 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:24:27,524 - root - INFO - Update ID: 607929653
+2021-06-07 23:24:27,525 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:24:27,525 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:25:17,994 - root - INFO - Update ID: 607929653
+2021-06-07 23:25:17,995 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:25:17,995 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:26:08,506 - root - INFO - Update ID: 607929653
+2021-06-07 23:26:08,507 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:26:08,507 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:26:59,034 - root - INFO - Update ID: 607929653
+2021-06-07 23:26:59,034 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:26:59,034 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:27:49,654 - root - INFO - Update ID: 607929653
+2021-06-07 23:27:49,655 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:27:49,656 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:28:40,138 - root - INFO - Update ID: 607929653
+2021-06-07 23:28:40,139 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:28:40,139 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:29:30,632 - root - INFO - Update ID: 607929653
+2021-06-07 23:29:30,633 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:29:30,633 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:30:21,120 - root - INFO - Update ID: 607929653
+2021-06-07 23:30:21,120 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:30:21,121 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:31:11,659 - root - INFO - Update ID: 607929653
+2021-06-07 23:31:11,659 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:31:11,660 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:32:02,125 - root - INFO - Update ID: 607929653
+2021-06-07 23:32:02,125 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:32:02,126 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:32:53,507 - root - INFO - Update ID: 607929653
+2021-06-07 23:32:53,507 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:32:53,507 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:33:43,989 - root - INFO - Update ID: 607929653
+2021-06-07 23:33:43,989 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:33:43,990 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:34:34,473 - root - INFO - Update ID: 607929653
+2021-06-07 23:34:34,473 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:34:34,473 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:35:24,966 - root - INFO - Update ID: 607929653
+2021-06-07 23:35:24,966 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:35:24,966 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:36:15,437 - root - INFO - Update ID: 607929653
+2021-06-07 23:36:15,437 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:36:15,438 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:37:05,908 - root - INFO - Update ID: 607929653
+2021-06-07 23:37:05,909 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:37:05,910 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:37:56,555 - root - INFO - Update ID: 607929653
+2021-06-07 23:37:56,555 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:37:56,555 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:38:47,015 - root - INFO - Update ID: 607929653
+2021-06-07 23:38:47,016 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:38:47,017 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:39:37,514 - root - INFO - Update ID: 607929653
+2021-06-07 23:39:37,515 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:39:37,515 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:40:27,979 - root - INFO - Update ID: 607929653
+2021-06-07 23:40:27,979 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:40:27,980 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:41:18,452 - root - INFO - Update ID: 607929653
+2021-06-07 23:41:18,453 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:41:18,454 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:54:13,464 - root - INFO - Constants and Keys loaded successfully
+2021-06-07 23:54:13,465 - root - INFO - Bot Started Successfully at: 2021-06-07 23:54:13.465680
+2021-06-07 23:54:14,055 - root - INFO - Update ID: None
+2021-06-07 23:54:14,055 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929654, 'message': {'message_id': 144, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090222, 'text': '.as Testing the save function'}}]}
+2021-06-07 23:54:14,056 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:54:14,056 - root - INFO - this is item{'update_id': 607929654, 'message': {'message_id': 144, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090222, 'text': '.as Testing the save function'}}
+2021-06-07 23:54:14,057 - root - INFO - Pushing data to database
+2021-06-07 23:54:14,061 - root - INFO - Message: (False, 'save', 'testing the save function', '💌') 
+2021-06-07 23:55:04,671 - root - INFO - Update ID: 607929654
+2021-06-07 23:55:04,672 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:55:04,672 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:55:55,221 - root - INFO - Update ID: 607929654
+2021-06-07 23:55:55,222 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:55:55,223 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:56:45,882 - root - INFO - Update ID: 607929654
+2021-06-07 23:56:45,883 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:56:45,883 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:57:36,703 - root - INFO - Update ID: 607929654
+2021-06-07 23:57:36,704 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:57:36,704 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:57:42,596 - root - INFO - Constants and Keys loaded successfully
+2021-06-07 23:57:42,597 - root - INFO - Bot Started Successfully at: 2021-06-07 23:57:42.596949
+2021-06-07 23:58:08,570 - root - INFO - Update ID: None
+2021-06-07 23:58:08,570 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929655, 'message': {'message_id': 145, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090488, 'text': '.as testing again with new fields in db'}}]}
+2021-06-07 23:58:08,571 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:58:08,572 - root - INFO - this is item{'update_id': 607929655, 'message': {'message_id': 145, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090488, 'text': '.as testing again with new fields in db'}}
+2021-06-07 23:58:08,572 - root - INFO - Pushing data to database
+2021-06-07 23:58:08,577 - root - INFO - Message: (False, 'save', 'testing again with new fields in db', '💌') 
+2021-06-07 23:58:59,620 - root - INFO - Update ID: 607929655
+2021-06-07 23:58:59,620 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:58:59,621 - root - INFO - Updates received, Commence looping over elements
+2021-06-07 23:59:50,217 - root - INFO - Update ID: 607929655
+2021-06-07 23:59:50,218 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-07 23:59:50,218 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:00:40,814 - root - INFO - Update ID: 607929655
+2021-06-08 00:00:40,814 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 00:00:40,815 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:00:43,641 - root - INFO - Update ID: 607929655
+2021-06-08 00:00:43,641 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929656, 'message': {'message_id': 146, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090643, 'text': 'Hi'}}]}
+2021-06-08 00:00:43,641 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:00:43,641 - root - INFO - this is item{'update_id': 607929656, 'message': {'message_id': 146, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090643, 'text': 'Hi'}}
+2021-06-08 00:00:43,642 - root - INFO - Pushing data to database
+2021-06-08 00:00:43,644 - root - INFO - Message: (False, 'default', 'Hi', '💌') 
+2021-06-08 00:00:47,114 - root - INFO - Update ID: 607929656
+2021-06-08 00:00:47,115 - root - INFO - Update Value: {'ok': False, 'error_code': 409, 'description': 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'}
+2021-06-08 00:05:23,644 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:05:23,645 - root - INFO - Bot Started Successfully at: 2021-06-08 00:05:23.645249
+2021-06-08 00:05:24,361 - root - INFO - Update ID: None
+2021-06-08 00:05:24,362 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929657, 'message': {'message_id': 147, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090676, 'text': 'Hi'}}, {'update_id': 607929658, 'message': {'message_id': 148, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090704, 'text': 'Testing link https://www.youtube.com/watch?v=ot2BxlwbMao', 'entities': [{'offset': 13, 'length': 43, 'type': 'url'}]}}]}
+2021-06-08 00:05:24,362 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:05:24,362 - root - INFO - this is item{'update_id': 607929657, 'message': {'message_id': 147, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090676, 'text': 'Hi'}}
+2021-06-08 00:05:24,363 - root - INFO - Pushing data to database
+2021-06-08 00:05:57,194 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 00:05:57,195 - root - INFO - Bot Started Successfully at: 2021-06-08 00:05:57.195041
+2021-06-08 00:05:57,795 - root - INFO - Update ID: None
+2021-06-08 00:05:57,796 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929657, 'message': {'message_id': 147, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090676, 'text': 'Hi'}}, {'update_id': 607929658, 'message': {'message_id': 148, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090704, 'text': 'Testing link https://www.youtube.com/watch?v=ot2BxlwbMao', 'entities': [{'offset': 13, 'length': 43, 'type': 'url'}]}}]}
+2021-06-08 00:05:57,796 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 00:05:57,796 - root - INFO - this is item{'update_id': 607929657, 'message': {'message_id': 147, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090676, 'text': 'Hi'}}
+2021-06-08 00:05:57,796 - root - INFO - Pushing data to database
+2021-06-08 00:05:57,801 - root - INFO - Message: (False, 'default', 'Hi', '💌') 
+2021-06-08 00:05:57,801 - root - INFO - this is item{'update_id': 607929658, 'message': {'message_id': 148, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623090704, 'text': 'Testing link https://www.youtube.com/watch?v=ot2BxlwbMao', 'entities': [{'offset': 13, 'length': 43, 'type': 'url'}]}}
+2021-06-08 00:05:57,801 - root - INFO - Pushing data to database
+2021-06-08 00:05:57,804 - root - INFO - Message: (False, 'default', 'Testing link https://www.youtube.com/watch?v=ot2BxlwbMao', '💌') 
+2021-06-08 00:06:48,561 - root - INFO - Update ID: 607929658
+2021-06-08 00:06:48,562 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 00:06:48,562 - root - INFO - Updates received, Commence looping over elements

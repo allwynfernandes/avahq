@@ -1,9 +1,13 @@
+import os
 import requests
 import json
 
+API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
+
+
 class Bot:
     def __init__(self):
-        self.token = "1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU" #self.read_config(config)
+        self.token = API_KEY 
         self.base = f"https://api.telegram.org/bot{self.token}"
 
     def get_updates(self, offset=None):
@@ -17,8 +21,3 @@ class Bot:
         url = self.base + f"/sendMessage?chat_id={chatId}&text={msg}"
         if msg is not None:
             requests.get(url)
-
-    # def read_config(config):
-    #     parser = configparser.ConfigParser()
-    #     parser.read(config)
-    #     return parser.get('secrets', 'API_KEY')
