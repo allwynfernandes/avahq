@@ -47,3 +47,11 @@
 # * Tute learn docker: https://www.youtube.com/watch?v=bi0cKgmRuiA
 # * Qovery tute: https://www.youtube.com/watch?v=9fXyUKRqjRQ; https://www.youtube.com/watch?v=kdCt26vyzgs
 # * Qovery website: https://console.qovery.com/platform/organization/zslbgcfanc6r2nbs/projects/e9jphldoimww7w8e/dj1xpy6b6gxqax5p?logs=1
+# * Learnings from relative imports https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
+
+
+
+
+from .constants import *
+from .messageobj import Message
+from .bot import Bot
