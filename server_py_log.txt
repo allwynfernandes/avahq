@@ -179,3 +179,30 @@
 2021-06-08 00:33:31,828 - root - INFO - this is item{'update_id': 607929659, 'message': {'message_id': 149, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623092611, 'text': '.as jijo testing save'}}
 2021-06-08 00:33:31,828 - root - INFO - Pushing data to database
 2021-06-08 00:33:31,832 - root - INFO - Message: (False, 'save', 'jijo testing save', '💌') 
+2021-06-08 22:23:36,672 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 22:23:36,747 - root - INFO - Bot Started Successfully at: 2021-06-08 22:23:36.747040
+2021-06-08 22:25:41,830 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 22:25:41,830 - root - INFO - Bot Started Successfully at: 2021-06-08 22:25:41.830758
+2021-06-08 22:25:42,435 - root - INFO - Update ID: None
+2021-06-08 22:25:42,436 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 607929660, 'message': {'message_id': 150, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623168490, 'text': 'Testing ava on qovery1'}}]}
+2021-06-08 22:25:42,436 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:25:42,436 - root - INFO - this is item{'update_id': 607929660, 'message': {'message_id': 150, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1623168490, 'text': 'Testing ava on qovery1'}}
+2021-06-08 22:25:42,436 - root - INFO - Pushing data to database
+2021-06-08 22:25:42,584 - root - INFO - Message: (False, 'default', 'Testing ava on qovery1', '💌') 
+2021-06-08 22:26:33,050 - root - INFO - Update ID: 607929660
+2021-06-08 22:26:33,051 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 22:26:33,051 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:27:23,524 - root - INFO - Update ID: 607929660
+2021-06-08 22:27:23,524 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 22:27:23,524 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:28:13,982 - root - INFO - Update ID: 607929660
+2021-06-08 22:28:13,982 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 22:28:13,982 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:29:04,446 - root - INFO - Update ID: 607929660
+2021-06-08 22:29:04,447 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 22:29:04,447 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:29:54,984 - root - INFO - Update ID: 607929660
+2021-06-08 22:29:54,984 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-08 22:29:54,984 - root - INFO - Updates received, Commence looping over elements
+2021-06-08 22:30:36,260 - root - INFO - Constants and Keys loaded successfully
+2021-06-08 22:30:36,261 - root - INFO - Bot Started Successfully at: 2021-06-08 22:30:36.261067

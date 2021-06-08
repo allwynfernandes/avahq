@@ -7,9 +7,9 @@ from pymongo import MongoClient
 
 
 
-from constants import *
-from messageobj import Message
-from bot import Bot
+from package.constants import *
+from package.messageobj import Message
+from package.bot import Bot
 # from feature_functions import *
 # from common_functions import *
 
@@ -84,20 +84,3 @@ def main(update_id):
 
 if __name__ == '__main__':
     main(update_id)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

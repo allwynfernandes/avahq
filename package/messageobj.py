@@ -2,7 +2,7 @@ import logging
 import datetime
 import parsedatetime
 from pymongo import MongoClient
-from constants import *
+from .constants import *
 
 
 
