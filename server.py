@@ -18,7 +18,8 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 
 # Storing secrets
 
-API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
+
+API_KEY = os.getenv("TG_BOT_TOKEN_TEST")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
 client = MongoClient(MONGO_CONNECTION)
