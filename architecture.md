@@ -153,4 +153,8 @@ https://api.telegram.org/bot<token>/getUpdates
 - `ava timeit` to keep track of amount of time given to a task or project per day. Add an entry with `/t fullstackopen 3h`. Adjust with `/t fullstackopen remove 2h` See progress with `ava show timeit fullstackopen 7 days`. For top tasks you spent most of your time on `ava show timeit top 10 month`
 
 
+Disappearing prompts.
+- The moment a `.as` or any other such message is sent. Ava replies with the next prompt in the list
+Like hinting the user to share the next item in the list. These messages dont stay persistent. They show up, staying on screen for 5 seconds then disappearing.
 
+    
