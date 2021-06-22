@@ -31,7 +31,6 @@ logging.info("Constants and Keys loaded successfully")
 # > db.responses.find({body:/shivani/i}, {_id:0, hook:1, title:1, body:1}).sort({_id:-1}).limit(3)
 
 
-# /Storing secrets
 logging.info(f"Bot Started Successfully at: {str(datetime.datetime.now())}" )
 
 print(f"Bot started at {str(datetime.datetime.now())}") 
