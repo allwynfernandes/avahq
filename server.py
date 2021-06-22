@@ -17,7 +17,6 @@ from package.bot import Bot
 logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 # logging.disable(logging.CRITICAL)
 
-# Storing secrets
 
 
 API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
