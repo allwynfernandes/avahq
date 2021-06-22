@@ -1,6 +1,7 @@
 import os
 import logging
 import datetime
+from re import M
 import parsedatetime
 from pymongo import MongoClient
 
@@ -20,6 +21,7 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 
 
 API_KEY = os.getenv("TG_BOT_TOKEN_TEST")
+print(API_KEY)
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
 client = MongoClient(MONGO_CONNECTION)
@@ -35,7 +37,7 @@ logging.info("Constants and Keys loaded successfully")
 logging.info(f"Bot Started Successfully at: {str(datetime.datetime.now())}" )
 
 print(f"Bot started at {str(datetime.datetime.now())}") 
-bot = Bot()
+bot = Bot(API_KEY)
 update_id = None
 
 
@@ -81,6 +83,12 @@ def main(update_id):
                     if order.intentFound:
                         reply = order.serviceReply
                         bot.send_message(reply,fromUserId)
+                        bot.delete_message(chatId, messageId, order.intentFound, 3)
+                    else:
+                        reply = order.serviceReply
+                        bot.send_message(reply,fromUserId)
+                        bot.delete_message(chatId, messageId, order.hookFound, 10)
+                        # bot.delete_message(chatId, messageId, order.hookFound, 10)
 
 
 if __name__ == '__main__':

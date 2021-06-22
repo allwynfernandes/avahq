@@ -8,8 +8,7 @@ HOOKLIST = {
     'awesome' : ['ava awesome ', '.aa '],
     'upset' : ['ava upset ', '.ap '],
     'regret' : ['ava regret ', '.ar '],
-    'impove' : ['ava improve ', '.ai '],
-    'myself' : ['ava myself ', '.am '], # Self-introspection / self-realization
+    'introspection' : ['ava introspection ', '.ai '], # Self-introspection / self-realization
     'grateful' : ['ava grateful ', '.ag ' ],
     'forgive' : ['ava forgive ', '.af '],
     'connect' : ['ava connect ', '.ac '],
@@ -30,25 +29,26 @@ HOOKLIST = {
 INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
 
 
-DIAPROMPTS = {
-"learn" : "Which article did you read today?",
-"unique" : "What was unique about today?",
-"words" : "Describe the day in 3 words?",
-"dayscore" : "What's today's sentiment score vs yesterday?",
-"cause" : "Why do you feel this way? Whats the cause?",
-"awesome" : "What was awesome about today?",  
-"upset" : "Upset of the day?",
-"regret" : "What did you regret today?",
-"difftomorrow" : "What would you want to do differently tomorrow?",
-"impove" : "What would you want to improve tomorrow?",
-"dotomorrow" : "Top activity of tomorrow?",
-"presence" : "Today's realization of presence?",
-"myself" : "Today's realization about self?",
-"grateful" : "5 things you are grateful for today?",
-"forgive" : "Who would you like to forgive today?",
-"connect" : "Who did you connect with today and what did you speak?",
-"bookmark" : "Any attachments you would like to share?",
+DDIAPROMPTS = {
+"save" : "Any attachments you would like to share?\n\n👉 .as",
+"learn" : "Which article did you read today?\n\n👉 .al",
+"unique" : "What was unique about today?\n\n👉 .au",
+"word" : "Describe the day in 3 words?\n\n👉 .aw",
+"dayscore" : "What's today's sentiment score vs yesterday?\n\n👉 .ad",
+"cause" : "Why do you feel this way? Whats the cause?\n\n👉 .ay",
+"awesome" : "What was awesome about today?\n\n👉 .aa",  
+"upset" : "Upset of the day?\n\n👉 .ap",
+"regret" : "What did you regret today?\n\n👉 .ar",
+# "difftomorrow" : "What would you want to do differently tomorrow?", # removed difftomorrow
+# "impove" : "What would you want to improve tomorrow?",
+# "dotomorrow" : "Top activity of tomorrow?",
+# "presence" : "Today's realization of presence?",
+"introspection" : "Today's realization about self?\n\n👉 .ai",
+"grateful" : "5 things you are grateful for today?\n\n👉 .ag",
+"forgive" : "Who would you like to forgive today?\n\n👉 .af",
+"connect" : "Who did you connect with today and what did you speak?\n\n👉 .ac",
 }
+
 
 
 HELPTEXT = '''
