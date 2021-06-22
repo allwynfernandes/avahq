@@ -23,7 +23,7 @@ class Bot:
         if msg is not None:
             requests.get(url)
     
-    def delete_message(self, chatId=None, messageId=None, condition=False, waitTime=5):
+    def delete_message(self, chatId=None, messageId=None, waitTime=5, condition=False):
         '''
         This deletes the message sent by the bot after a time interval.
         The ID of the bots's message is an increment by 1 of the ID of the message sent by the user.

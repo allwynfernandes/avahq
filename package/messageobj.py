@@ -26,7 +26,7 @@ class Message:
     intentFound: Booleen
     '''
 
-    def __init__(self, updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, collection, dbSearchQuery=None):
+    def __init__(self, updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, DIAPROMPTS, collection, dbSearchQuery=None):
         self.updateId = updateId
         self.chatId = chatId
         self.messageId = messageId
@@ -42,7 +42,7 @@ class Message:
 
 
         self.extract_hook(HOOKLIST, INTENTLIST)
-        self.execute_hook(collection, dbSearchQuery=None)
+        self.execute_hook(DIAPROMPTS, collection, dbSearchQuery=None)
 
     def extract_hook(self, HOOKLIST, INTENTLIST):
         '''
@@ -83,10 +83,19 @@ class Message:
 
 
 
-    def execute_hook(self, collection, dbSearchQuery=None):
+    def execute_hook(self, DIAPROMPTS, collection, dbSearchQuery=None):
         if not self.intentFound:
             self.save_to_db(collection)
-            self.serviceReply = "💌" # If no intent then just save the message to db and send a 'message saved' service message to user
+            # If no intent then just save the message to db and send a 'message saved' service message to user
+            # self.serviceReply = "💌" 
+            if self.hook in DIAPROMPTS.keys():
+                hookPos = list(DIAPROMPTS).index(self.hook)
+                if hookPos < len(DIAPROMPTS)-1:
+                    self.serviceReply = f"👍 {self.hook.title()}\n\n☝️ {list(DIAPROMPTS.values())[hookPos+1]}"
+                else:
+                    self.serviceReply = "🏆 All entries made! 🏆"        
+        
+        
         else: # Note to self: maybe I'll create an intent class that lives in another file and I just call it here. 
             if self.hook == 'bookmark':
                 self.save_to_db(collection)

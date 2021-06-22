@@ -20,8 +20,7 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 # Storing secrets
 
 
-API_KEY = os.getenv("TG_BOT_TOKEN_TEST")
-print(API_KEY)
+API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
 client = MongoClient(MONGO_CONNECTION)
@@ -78,17 +77,14 @@ def main(update_id):
                 # Here on, call the Message class and do message stuff from main.py
                 logging.info("Pushing data to database")
                 if message != None:
-                    order = Message(updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, RESPONSES)
+                    order = Message(updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, DIAPROMPTS, RESPONSES)
                     logging.info(f"Message: {order.intentFound, order.hook, order.body, order.serviceReply} ")
-                    if order.intentFound:
-                        reply = order.serviceReply
-                        bot.send_message(reply,fromUserId)
-                        bot.delete_message(chatId, messageId, order.intentFound, 3)
-                    else:
-                        reply = order.serviceReply
-                        bot.send_message(reply,fromUserId)
-                        bot.delete_message(chatId, messageId, order.hookFound, 10)
-                        # bot.delete_message(chatId, messageId, order.hookFound, 10)
+
+                    deleteWaitTime = 3 if order.intentFound else 8
+                    reply = order.serviceReply
+                    bot.send_message(reply,fromUserId)
+                    bot.delete_message(chatId, messageId, deleteWaitTime, condition=True)
+
 
 
 if __name__ == '__main__':

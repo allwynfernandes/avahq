@@ -29,7 +29,7 @@ HOOKLIST = {
 INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
 
 
-DDIAPROMPTS = {
+DIAPROMPTS = {
 "save" : "Any attachments you would like to share?\n\n👉 .as",
 "learn" : "Which article did you read today?\n\n👉 .al",
 "unique" : "What was unique about today?\n\n👉 .au",
