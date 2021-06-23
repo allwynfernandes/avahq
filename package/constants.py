@@ -30,23 +30,23 @@ INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
 
 
 DIAPROMPTS = {
-"save" : "Any attachments you would like to share?\n\n👉 .ava save OR .as",
-"learn" : "Which article did you read today?\n\n👉 .ava learn OR .al",
-"unique" : "What was unique about today?\n\n👉 .ava unique OR .au",
-"word" : "Describe the day in 3 words?\n\n👉 .ava word OR .aw",
-"dayscore" : "What's today's sentiment score vs yesterday?\n\n👉 .ava dayscore OR .ad",
-"cause" : "Why do you feel this way? Whats the cause?\n\n👉 .ava cause OR .ay",
-"awesome" : "What was awesome about today?\n\n👉 .ava awesome OR .aa",  
-"upset" : "Upset of the day?\n\n👉 .ava upset OR .ap",
-"regret" : "What did you regret today?\n\n👉 .ava regret OR .ar",
+"save" : "Any attachments you would like to share?\n\n👉 ava save OR .as",
+"learn" : "Which article did you read today?\n\n👉 ava learn OR .al",
+"unique" : "What was unique about today?\n\n👉 ava unique OR .au",
+"word" : "Describe the day in 3 words?\n\n👉 ava word OR .aw",
+"dayscore" : "What's today's sentiment score vs yesterday?\n\n👉 ava dayscore OR .ad",
+"cause" : "Why do you feel this way? Whats the cause?\n\n👉 ava cause OR .ay",
+"awesome" : "What was awesome about today?\n\n👉 ava awesome OR .aa",  
+"upset" : "Upset of the day?\n\n👉 ava upset OR .ap",
+"regret" : "What did you regret today?\n\n👉 ava regret OR .ar",
 # "difftomorrow" : "What would you want to do differently tomorrow?", # removed difftomorrow
 # "impove" : "What would you want to improve tomorrow?",
 # "dotomorrow" : "Top activity of tomorrow?",
 # "presence" : "Today's realization of presence?",
-"introspection" : "Today's realization about self?\n\n👉 .ava introspection OR .ai",
-"grateful" : "5 things you are grateful for today?\n\n👉 .ava grateful OR .ag",
-"forgive" : "Who would you like to forgive today?\n\n👉 .ava forgive OR .af",
-"connect" : "Who did you connect with today and what did you speak?\n\n👉 .ava connect OR .ac",
+"introspection" : "Today's realization about self?\n\n👉 ava introspection OR .ai",
+"grateful" : "5 things you are grateful for today?\n\n👉 ava grateful OR .ag",
+"forgive" : "Who would you like to forgive today?\n\n👉 ava forgive OR .af",
+"connect" : "Who did you connect with today and what did you speak?\n\n👉 ava connect OR .ac",
 }
 
 

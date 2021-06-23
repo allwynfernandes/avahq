@@ -108,6 +108,13 @@ https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUp
     - dt_created
     - dt_updated
 
+# Constants
+HOOKLIST = ...
+INTENTLIST = ...
+DIAPROMPTS = ...
+TIMEBUDGETCAT = {office, hustle, introspection, social, fitness, learning}
+MONEYBUDEGETCAT = { food, travel, commute, social,  }
+
 
 # Functions
 - get_intent (hook extractor)
@@ -121,6 +128,8 @@ https://api.telegram.org/bot1730449786:AAEOwWFBxxy7YqLpOc6mFsSHLfNhc-CFQCU/getUp
     - Failing each, it defaults to storing the response with intent "unprocessed"
 - add_question
     - Adds a questions to the questions collection. add_question("text", "hook")
+- add_contact
+    - add a contact from telegram `ava people add "josh" "Joshua Fernando". For more details see https://hen.cat/ppl//commands
 
 
 - Messaging API
