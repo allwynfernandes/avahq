@@ -19,7 +19,7 @@ class Bot:
         return json.loads(r.content)
     
     def send_message(self, msg=None, chatId=None):
-        url = self.base + f"/sendMessage?chat_id={chatId}&text={msg}"
+        url = self.base + f"/sendMessage?chat_id={chatId}&text={msg}&parse_mode=markdown"
         if msg is not None:
             requests.get(url)
     

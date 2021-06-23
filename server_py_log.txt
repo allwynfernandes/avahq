@@ -866,3 +866,163 @@
 2021-06-23 22:47:58,557 - root - INFO - this is item{'update_id': 917102287, 'message': {'message_id': 70, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624468673, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
 2021-06-23 22:47:58,557 - root - INFO - Pushing data to database
 2021-06-23 22:47:58,557 - root - INFO - Message: (True, 'help', '', "\nI'm Ava, your personal crm bot.\nI can help you remember birthdays, set reminders and keep a general log of your day.\nTo start with, Here's are a few entries from the day log / journal feature:\n* Journaling with tags *\n`\n.al today I learnt about mastery learning. \n.ac called up Joseph from school. Its been ages!\n.aw slow, productive, introspective\n.ag I am grateful for the rains. I love the rains.  \n\n`\nSimply precede your text with the `.ax` tag and it gets stored with that id.\nThe fun part is that you can download and analyse all your enties at end of the week!\nFor a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04\n\n* Set Reminders *\n`ava remind me to call boss tomorrow at 9am`\n`/r pick up the trash next friday at noon`\n`/r pay the bills 3 days from now`\nEither of these tags work. Also, I can read time in natural language!\n\n* Shorten urls *\n`ava shorten https://www.youtube.com/watch?v=oHg5SJYRHA0`\nI instantly replies with `Here's the shortened url: https://is.gd/2aLkKB`\n\n*Summarize Long Articles*\n`ava summary https://www.economist.com/the-boundary-between-crypto-and-fiat`\n\nFor a full list of my skills, check here.\nYou can pin this message for quick access or to show this message again, type `ava help`\n\n\nList of journal tags\n.al learn? \n.au unique? \n.aw word?\n.ad dayscore?\n.ay cause?\n.aa awesome?\n.ap upset?\n.ar regret?\n.ai instrospection?\n.ag grateful?\n.af forgive?\n.ac connect?\n.as save?\n\n\n") 
+2021-06-23 22:54:19,570 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 22:54:19,574 - root - INFO - Bot Started Successfully at: 2021-06-23 22:54:19.574309
+2021-06-23 22:54:24,691 - root - INFO - Update ID: None
+2021-06-23 22:54:24,692 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102288, 'message': {'message_id': 72, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469064, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}]}
+2021-06-23 22:54:24,692 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:54:24,693 - root - INFO - this is item{'update_id': 917102288, 'message': {'message_id': 72, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469064, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+2021-06-23 22:54:24,693 - root - INFO - Pushing data to database
+2021-06-23 22:54:24,693 - root - INFO - Message: (True, 'help', '', "\nHi, I'm Ava, your personal crm bot.\nI can help you remember birthdays, set reminders and keep a general log of your day.\nTo start with, Here's are a few entries from the day log / journal feature:\n**🎯 Journaling with tags**\n```\n.al today I learnt about mastery learning. \n.ac called up Joseph from school. Its been ages!\n.aw slow, productive, introspective\n.ag I am grateful for the rains. I love the rains.  \n\n```\n__⚠️: Dont forget the ```.``` period before the two letters. That's how I know you're messaging me.__\nSimply precede your text with the ```.ax``` tag and it gets stored with that id.\nThe fun part is that you can download and analyse all your enties at end of the week!\nFor a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04\n\n**🎯 Set Reminders**\n```\nava remind me to call boss tomorrow at 9am\nava remind pick up the trash next friday at noon\n/r pay the bills 3 days from now\n```\nEither of these tags work since I can read time in natural language!\n\n**🎯 Shorten urls**\n`ava shorten https://www.youtube.com/watch?v=oHg5SJYRHA0`\nI instantly replies with `Here's the shortened url: https://is.gd/2aLkKB`\n\n**🎯 Summarize Long Articles**\n`ava summary https://www.economist.com/books-and-arts/2021/06/21/is-smartphone-film-making-the-future-of-cinema`\n\nFor a full list of my skills, check here.\n\n") 
+2021-06-23 22:55:06,465 - root - INFO - Update ID: 917102288
+2021-06-23 22:55:06,466 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102289, 'message': {'message_id': 74, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469106, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}]}
+2021-06-23 22:55:06,466 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:55:06,466 - root - INFO - this is item{'update_id': 917102289, 'message': {'message_id': 74, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469106, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+2021-06-23 22:55:06,466 - root - INFO - Pushing data to database
+2021-06-23 22:55:06,467 - root - INFO - Message: (True, 'help', '', "\nHi, I'm Ava, your personal crm bot.\nI can help you remember birthdays, set reminders and keep a general log of your day.\nTo start with, Here's are a few entries from the day log / journal feature:\n**🎯 Journaling with tags**\n```\n.al today I learnt about mastery learning. \n.ac called up Joseph from school. Its been ages!\n.aw slow, productive, introspective\n.ag I am grateful for the rains. I love the rains.  \n\n```\n__⚠️: Dont forget the ```.``` period before the two letters. That's how I know you're messaging me.__\nSimply precede your text with the ```.ax``` tag and it gets stored with that id.\nThe fun part is that you can download and analyse all your enties at end of the week!\nFor a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04\n\n**🎯 Set Reminders**\n```\nava remind me to call boss tomorrow at 9am\nava remind pick up the trash next friday at noon\n/r pay the bills 3 days from now\n```\nEither of these tags work since I can read time in natural language!\n\n**🎯 Shorten urls**\n`ava shorten https://www.youtube.com/watch?v=oHg5SJYRHA0`\nI instantly replies with `Here's the shortened url: https://is.gd/2aLkKB`\n\n**🎯 Summarize Long Articles**\n`ava summary https://www.economist.com/books-and-arts/2021/06/21/is-smartphone-film-making-the-future-of-cinema`\n\nFor a full list of my skills, check here.\n\n") 
+2021-06-23 22:56:18,666 - root - INFO - Update ID: 917102289
+2021-06-23 22:56:18,666 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 22:56:18,666 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:57:09,136 - root - INFO - Update ID: 917102289
+2021-06-23 22:57:09,136 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 22:57:09,136 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:57:59,685 - root - INFO - Update ID: 917102289
+2021-06-23 22:57:59,686 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 22:57:59,686 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:58:50,157 - root - INFO - Update ID: 917102289
+2021-06-23 22:58:50,157 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 22:58:50,157 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 22:59:40,694 - root - INFO - Update ID: 917102289
+2021-06-23 22:59:40,695 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 22:59:40,695 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:00:31,244 - root - INFO - Update ID: 917102289
+2021-06-23 23:00:31,244 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:00:31,245 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:01:22,590 - root - INFO - Update ID: 917102289
+2021-06-23 23:01:22,590 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:01:22,591 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:02:20,740 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:02:20,740 - root - INFO - Bot Started Successfully at: 2021-06-23 23:02:20.740683
+2021-06-23 23:02:31,598 - root - INFO - Update ID: None
+2021-06-23 23:02:31,599 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102290, 'message': {'message_id': 76, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469551, 'text': 'help'}}]}
+2021-06-23 23:02:31,599 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:02:31,599 - root - INFO - this is item{'update_id': 917102290, 'message': {'message_id': 76, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469551, 'text': 'help'}}
+2021-06-23 23:02:31,600 - root - INFO - Pushing data to database
+2021-06-23 23:04:27,749 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:04:27,752 - root - INFO - Bot Started Successfully at: 2021-06-23 23:04:27.752809
+2021-06-23 23:04:28,295 - root - INFO - Update ID: None
+2021-06-23 23:04:28,305 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102290, 'message': {'message_id': 76, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469551, 'text': 'help'}}]}
+2021-06-23 23:04:28,306 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:04:28,307 - root - INFO - this is item{'update_id': 917102290, 'message': {'message_id': 76, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469551, 'text': 'help'}}
+2021-06-23 23:04:28,307 - root - INFO - Pushing data to database
+2021-06-23 23:04:28,322 - root - INFO - Message: (False, 'default', 'help', "Sorry I didn't get that") 
+2021-06-23 23:04:38,117 - root - INFO - Update ID: 917102290
+2021-06-23 23:04:38,118 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102291, 'message': {'message_id': 78, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469673, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}]}
+2021-06-23 23:04:38,118 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:04:38,118 - root - INFO - this is item{'update_id': 917102291, 'message': {'message_id': 78, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624469673, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+2021-06-23 23:04:38,119 - root - INFO - Pushing data to database
+2021-06-23 23:04:38,119 - root - INFO - Message: (True, 'help', '', "\nHi, I'm Ava, your personal crm bot.\nI can help you remember birthdays, set reminders and keep a general log of your day.\nTo start with, Here's are a few entries from the day log / journal feature:\n**🎯 Journaling with tags**\n```\n.al today I learnt about mastery learning. \n.ac called up Joseph from school. Its been ages!\n.aw slow, productive, introspective\n.ag I am grateful for the rains. I love the rains.  \n\n```\n__⚠️: Dont forget the ```.``` period before the two letters. That's how I know you're messaging me.__\nSimply precede your text with the ```.ax``` tag and it gets stored with that id.\nThe fun part is that you can download and analyse all your enties at end of the week!\nFor a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04\n\n**🎯 Set Reminders**\n```\nava remind me to call boss tomorrow at 9am\nava remind pick up the trash next friday at noon\n/r pay the bills 3 days from now\n```\nEither of these tags work since I can read time in natural language!\n\n**🎯 Shorten urls**\n`ava shorten https://www.youtube.com/watch?v=oHg5SJYRHA0`\nI instantly replies with `Here's the shortened url: https://is.gd/2aLkKB`\n\n**🎯 Summarize Long Articles**\n`ava summary https://www.economist.com/books-and-arts/2021/06/21/is-smartphone-film-making-the-future-of-cinema`\n\nFor a full list of my skills, check here.\n\n") 
+2021-06-23 23:05:50,097 - root - INFO - Update ID: 917102291
+2021-06-23 23:05:50,097 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:05:50,098 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:06:40,704 - root - INFO - Update ID: 917102291
+2021-06-23 23:06:40,705 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:06:40,705 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:07:31,200 - root - INFO - Update ID: 917102291
+2021-06-23 23:07:31,201 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:07:31,203 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:11:14,215 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:11:14,219 - root - INFO - Bot Started Successfully at: 2021-06-23 23:11:14.219337
+2021-06-23 23:11:18,424 - root - INFO - Update ID: None
+2021-06-23 23:11:18,424 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102292, 'message': {'message_id': 80, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470078, 'text': 'help'}}]}
+2021-06-23 23:11:18,424 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:11:18,425 - root - INFO - this is item{'update_id': 917102292, 'message': {'message_id': 80, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470078, 'text': 'help'}}
+2021-06-23 23:11:18,425 - root - INFO - Pushing data to database
+2021-06-23 23:11:18,430 - root - INFO - Message: (False, 'default', 'help', "Sorry I didn't get that") 
+2021-06-23 23:12:18,176 - root - INFO - Update ID: 917102292
+2021-06-23 23:12:18,176 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:12:18,176 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:13:09,510 - root - INFO - Update ID: 917102292
+2021-06-23 23:13:09,511 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:13:09,512 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:13:16,547 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:13:16,549 - root - INFO - Bot Started Successfully at: 2021-06-23 23:13:16.548934
+2021-06-23 23:13:22,751 - root - INFO - Update ID: None
+2021-06-23 23:13:22,751 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102293, 'message': {'message_id': 82, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470202, 'text': 'help'}}]}
+2021-06-23 23:13:22,751 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:13:22,752 - root - INFO - this is item{'update_id': 917102293, 'message': {'message_id': 82, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470202, 'text': 'help'}}
+2021-06-23 23:13:22,752 - root - INFO - Pushing data to database
+2021-06-23 23:13:22,757 - root - INFO - Message: (False, 'default', 'help', "Sorry I didn't get that") 
+2021-06-23 23:13:32,253 - root - INFO - Update ID: 917102293
+2021-06-23 23:13:32,253 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102294, 'message': {'message_id': 84, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470212, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}]}
+2021-06-23 23:13:32,254 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:13:32,255 - root - INFO - this is item{'update_id': 917102294, 'message': {'message_id': 84, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470212, 'text': '/help', 'entities': [{'offset': 0, 'length': 5, 'type': 'bot_command'}]}}
+2021-06-23 23:13:32,255 - root - INFO - Pushing data to database
+2021-06-23 23:13:32,256 - root - INFO - Message: (True, 'help', '', "\nHi, I'm Ava, your personal crm bot.\nI can help you remember birthdays, set reminders and keep a general log of your day.\nTo start with, Here's are a few entries from the day log / journal feature:\n**🎯 Journaling with tags**\n```\n.al today I learnt about mastery learning. \n.ac called up Joseph from school. Its been ages!\n.aw slow, productive, introspective\n.ag I am grateful for the rains. I love the rains.  \n\n```\n_⚠️: Dont forget the `.` period before the two letters. That's how I know you're messaging me._\nSimply precede your text with the ```.ax``` tag and it gets stored with that id.\nThe fun part is that you can download and analyse all your enties at end of the week!\nFor a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04\n\n**🎯 Set Reminders**\n```\nava remind me to call boss tomorrow at 9am\nava remind pick up the trash next friday at noon\n/r pay the bills 3 days from now\n```\nEither of these tags work since I can read time in natural language!\n\n**🎯 Shorten urls**\n`ava shorten https://www.youtube.com/watch?v=oHg5SJYRHA0`\nI instantly replies with `Here's the shortened url: https://is.gd/2aLkKB`\n\n**🎯 Summarize Long Articles**\n`ava summary https://www.economist.com/books-and-arts/2021/06/21/is-smartphone-film-making-the-future-of-cinema`\n\nFor a full list of my skills, check here.\n\n") 
+2021-06-23 23:14:26,430 - root - INFO - Update ID: 917102294
+2021-06-23 23:14:26,430 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:14:26,431 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:15:17,015 - root - INFO - Update ID: 917102294
+2021-06-23 23:15:17,015 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:15:17,019 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:15:42,258 - root - INFO - Update ID: 917102294
+2021-06-23 23:15:42,259 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102295, 'message': {'message_id': 86, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470342, 'text': 'gabaru'}}]}
+2021-06-23 23:15:42,259 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:15:42,260 - root - INFO - this is item{'update_id': 917102295, 'message': {'message_id': 86, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470342, 'text': 'gabaru'}}
+2021-06-23 23:15:42,260 - root - INFO - Pushing data to database
+2021-06-23 23:15:42,263 - root - INFO - Message: (False, 'default', 'gabaru', "Sorry I didn't get that") 
+2021-06-23 23:16:00,053 - root - INFO - Update ID: 917102295
+2021-06-23 23:16:00,054 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102296, 'message': {'message_id': 88, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470359, 'text': 'https://somelike.com', 'entities': [{'offset': 0, 'length': 20, 'type': 'url'}]}}]}
+2021-06-23 23:16:00,054 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:16:00,054 - root - INFO - this is item{'update_id': 917102296, 'message': {'message_id': 88, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470359, 'text': 'https://somelike.com', 'entities': [{'offset': 0, 'length': 20, 'type': 'url'}]}}
+2021-06-23 23:16:00,055 - root - INFO - Pushing data to database
+2021-06-23 23:16:00,058 - root - INFO - Message: (True, 'bookmark', 's://somelike.com', 'Feature in development 💌') 
+2021-06-23 23:16:11,559 - root - INFO - Update ID: 917102296
+2021-06-23 23:16:11,559 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102297, 'message': {'message_id': 90, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470371, 'text': 'this is a saved featuer'}}]}
+2021-06-23 23:16:11,559 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:16:11,559 - root - INFO - this is item{'update_id': 917102297, 'message': {'message_id': 90, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470371, 'text': 'this is a saved featuer'}}
+2021-06-23 23:16:11,560 - root - INFO - Pushing data to database
+2021-06-23 23:16:11,562 - root - INFO - Message: (False, 'default', 'this is a saved featuer', "Sorry I didn't get that") 
+2021-06-23 23:16:55,664 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:16:55,665 - root - INFO - Bot Started Successfully at: 2021-06-23 23:16:55.664962
+2021-06-23 23:17:00,102 - root - INFO - Update ID: None
+2021-06-23 23:17:00,102 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102298, 'message': {'message_id': 92, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470419, 'text': 'hlep'}}]}
+2021-06-23 23:17:00,103 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:17:00,103 - root - INFO - this is item{'update_id': 917102298, 'message': {'message_id': 92, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470419, 'text': 'hlep'}}
+2021-06-23 23:17:00,103 - root - INFO - Pushing data to database
+2021-06-23 23:17:00,108 - root - INFO - Message: (False, 'default', 'hlep', "Sorry I didn't catch that but the message is saved.\nTry typing: ```/help```") 
+2021-06-23 23:17:08,045 - root - INFO - Update ID: 917102298
+2021-06-23 23:17:08,045 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102299, 'message': {'message_id': 94, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470427, 'text': 'help'}}]}
+2021-06-23 23:17:08,046 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:17:08,046 - root - INFO - this is item{'update_id': 917102299, 'message': {'message_id': 94, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470427, 'text': 'help'}}
+2021-06-23 23:17:08,046 - root - INFO - Pushing data to database
+2021-06-23 23:17:08,048 - root - INFO - Message: (False, 'default', 'help', "Sorry I didn't catch that but the message is saved.\nTry typing: ```/help```") 
+2021-06-23 23:18:02,840 - root - INFO - Update ID: 917102299
+2021-06-23 23:18:02,841 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:18:02,841 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:18:42,988 - root - INFO - Update ID: 917102299
+2021-06-23 23:18:42,988 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102300, 'message': {'message_id': 96, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470522, 'text': '.al testing something new learnt'}}]}
+2021-06-23 23:18:42,989 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:18:42,989 - root - INFO - this is item{'update_id': 917102300, 'message': {'message_id': 96, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470522, 'text': '.al testing something new learnt'}}
+2021-06-23 23:18:42,989 - root - INFO - Pushing data to database
+2021-06-23 23:18:42,993 - root - INFO - Message: (False, 'learn', 'testing something new learnt', '👍 Learn\n\n☝️ What was unique about today?\n\n👉 ava unique OR .au') 
+2021-06-23 23:19:08,532 - root - INFO - Constants and Keys loaded successfully
+2021-06-23 23:19:08,532 - root - INFO - Bot Started Successfully at: 2021-06-23 23:19:08.532795
+2021-06-23 23:19:16,919 - root - INFO - Update ID: None
+2021-06-23 23:19:16,920 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102301, 'message': {'message_id': 98, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470556, 'text': '.al testing something new learnt'}}]}
+2021-06-23 23:19:16,920 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:19:16,921 - root - INFO - this is item{'update_id': 917102301, 'message': {'message_id': 98, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1624470556, 'text': '.al testing something new learnt'}}
+2021-06-23 23:19:16,921 - root - INFO - Pushing data to database
+2021-06-23 23:19:16,927 - root - INFO - Message: (False, 'learn', 'testing something new learnt', '👍 Learn\n\n☝️ What was unique about today?\n\n👉 ava unique OR .au') 
+2021-06-23 23:20:18,704 - root - INFO - Update ID: 917102301
+2021-06-23 23:20:18,705 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:20:18,705 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:21:09,247 - root - INFO - Update ID: 917102301
+2021-06-23 23:21:09,248 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:21:09,248 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:21:59,738 - root - INFO - Update ID: 917102301
+2021-06-23 23:21:59,738 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:21:59,738 - root - INFO - Updates received, Commence looping over elements
+2021-06-23 23:22:50,299 - root - INFO - Update ID: 917102301
+2021-06-23 23:22:50,300 - root - INFO - Update Value: {'ok': True, 'result': []}
+2021-06-23 23:22:50,304 - root - INFO - Updates received, Commence looping over elements

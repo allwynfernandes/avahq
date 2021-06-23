@@ -63,14 +63,14 @@ To start with, Here's are a few entries from the day log / journal feature:
 .ag I am grateful for the rains. I love the rains.  
 
 ```
-__⚠️: Dont forget the ```.``` period before the two letters. That's how I know you're messaging me.__
+_⚠️: Dont forget the `.` period before the two letters. That's how I know you're messaging me._
 Simply precede your text with the ```.ax``` tag and it gets stored with that id.
 The fun part is that you can download and analyse all your enties at end of the week!
 For a full list of all tags click here  https://telegra.ph/Ava-Bot-06-04
 
 **🎯 Set Reminders**
 ```
-ava remind me to call boss tomorrow at 9am
+ava remind me to call my boss tomorrow at 9am
 ava remind pick up the trash next friday at noon
 /r pay the bills 3 days from now
 ```
@@ -87,4 +87,21 @@ For a full list of my skills, check here.
 
 '''
 
-
+JOURNALTAGS = '''
+List of journal tags
+```
+.al learn? 
+.au unique? 
+.aw word?
+.ad dayscore?
+.ay cause?
+.aa awesome?
+.ap upset?
+.ar regret?
+.ai instrospection?
+.ag grateful?
+.af forgive?
+.ac connect?
+.as save?
+```
+'''

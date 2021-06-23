@@ -19,7 +19,7 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 
 
 
-API_KEY = os.getenv("TG_BOT_TOKEN_TEST")
+API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
 client = MongoClient(MONGO_CONNECTION)
@@ -78,10 +78,11 @@ def main(update_id):
                     order = Message(updateId, chatId, messageId, fromUserId, fname, username, message, HOOKLIST, INTENTLIST, DIAPROMPTS, RESPONSES)
                     logging.info(f"Message: {order.intentFound, order.hook, order.body, order.serviceReply} ")
 
-                    deleteWaitTime = 20 if order.hook=='help' else 8
                     reply = order.serviceReply
                     bot.send_message(reply,fromUserId)
-                    bot.delete_message(chatId, messageId, deleteWaitTime, condition=True)
+
+                    deleteWaitTime = 10 if order.hook in list(DIAPROMPTS) else 3
+                    bot.delete_message(chatId, messageId, deleteWaitTime, condition=order.isDeletable)
 
 
 

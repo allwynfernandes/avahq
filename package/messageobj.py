@@ -39,6 +39,7 @@ class Message:
         self.intentFound = False
         self.isReminder = False
         self.dtExtracted = datetime.datetime(1970,1,1) # Default value for date to satisfy mongoDB insert command
+        self.isDeletable = True
 
 
         self.extract_hook(HOOKLIST, INTENTLIST)
@@ -93,7 +94,9 @@ class Message:
                 if hookPos < len(DIAPROMPTS)-1:
                     self.serviceReply = f"👍 {self.hook.title()}\n\n☝️ {list(DIAPROMPTS.values())[hookPos+1]}"
                 else:
-                    self.serviceReply = "🏆 All entries made! 🏆"        
+                    self.serviceReply = "🏆 All entries made! 🏆"
+            else:
+                self.serviceReply="Sorry I didn't catch that but the message is saved.\nTry typing: ```/help```"
         
         
         else: # Note to self: maybe I'll create an intent class that lives in another file and I just call it here. 
@@ -128,6 +131,7 @@ class Message:
 
             elif self.hook == 'help':
                 self.serviceReply = HELPTEXT
+                self.isDeletable = False
 
             else:
                 pass
