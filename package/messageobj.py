@@ -99,7 +99,7 @@ class Message:
         else: # Note to self: maybe I'll create an intent class that lives in another file and I just call it here. 
             if self.hook == 'bookmark':
                 self.save_to_db(collection)
-                self.serviceReply = "Feature under development 💌" 
+                self.serviceReply = "Feature in development 💌" 
 
             elif self.hook == 'show':
                 if 'reminders' in self.message.lower(): #TODO: Implement querying mongodb via python
@@ -108,14 +108,14 @@ class Message:
                     # self.dbSearchQuery = db.responses.find({$and: [{'isReminder':true}, {'dtExtracted':{$gt:ISODate({self.dtCreated.isoformat()})}} ]},{'_id':0, 'title':1, 'dtExtracted':1})"
                     # self.dbProjection = {'_id':0, 'title':1, 'dtExtracted':1}
                     # self.searchResult = self.search_db(collection)
-                self.serviceReply = "Feature under development 💌" 
+                self.serviceReply = "Feature in development 💌" 
 
 
             elif self.hook == 'do':
-                self.serviceReply = "Feature under development 💌" 
+                self.serviceReply = "Feature in development 💌" 
 
             elif self.hook == 'shorten':
-                self.serviceReply = "Feature under development 💌" 
+                self.serviceReply = "Feature in development 💌" 
 
             elif self.hook == 'remind':
                 self.isReminder = True
@@ -124,10 +124,10 @@ class Message:
                 self.serviceReply = "⏰" # If no intent then just save the message to db and send a 'message saved' service message to user
 
             elif self.hook == 'timeit':
-                self.serviceReply = "Feature under development 💌" 
+                self.serviceReply = "Feature in development 💌" 
 
             elif self.hook == 'help':
-                self.serviceReply = HELPTEXT+JOURNALTAGS
+                self.serviceReply = HELPTEXT
 
             else:
                 pass
