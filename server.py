@@ -18,7 +18,6 @@ logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s
 # logging.disable(logging.CRITICAL)
 
 
-
 API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
