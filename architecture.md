@@ -3,8 +3,6 @@
 Learn regex:
 https://cheatography.com/davechild/cheat-sheets/regular-expressions/
 
-
-
 https://www.youtube.com/watch?v=0Vy-x6YRFGw
 PYBOT tute automagic: 
 https://www.youtube.com/watch?v=KRn2xb1bxXM
@@ -159,11 +157,48 @@ https://api.telegram.org/bot<token>/getUpdates
 
 
 # Features
+
+
+#### Reminder
+Set a reminder and get notified at specified time.
+`/r show all for today`
+
+#### Time Tracker
 - `ava timeit` to keep track of amount of time given to a task or project per day. Add an entry with `/t fullstackopen 3h`. Adjust with `/t fullstackopen remove 2h` See progress with `ava show timeit fullstackopen 7 days`. For top tasks you spent most of your time on `ava show timeit top 10 month`
 
 
-Disappearing prompts.
+#### Disappearing prompts. - #done
 - The moment a `.as` or any other such message is sent. Ava replies with the next prompt in the list
 Like hinting the user to share the next item in the list. These messages dont stay persistent. They show up, staying on screen for 5 seconds then disappearing.
 
-    
+#### Money Tracker
+Keep track of money spent and towards which life area
+`.am 500. #social with friends. Josh and gang.`
+`.am 50000. #income #office. January salary.`
+
+
+#### Task Tracker
+This uses the todo.txt method introduced in the Get Things Done method.
+
+Add task: 
+Add a meeting at a place: `/do add setup meeting with kovtours #social @home due tomorrow.`
+
+Show tasks
+All 'social' tasks: `/do show all #social for today`
+All tasks for today: `/do show all for today`
+
+Update task
+Mark a task as done: `/do x i323`
+
+Archive task
+Delete a task: `/do remove i323`
+
+Remove a task completely:
+Destroy a task: `/do destroy i323`
+
+#### You Goneby
+Random '.ai' messages from a year ago sent to you every morning. Like a version of yourself messaging you from the past.
+
+
+
+
