@@ -175,10 +175,12 @@ Like hinting the user to share the next item in the list. These messages dont st
 Keep track of money spent and towards which life area
 `.am 500. #social with friends. Josh and gang.`
 `.am 50000. #income #office. January salary.`
-
+It registers the very first number you mention as the total expense figure for the message note/item. All other numbers in the message are ignored.
 
 #### Task Tracker
 This uses the todo.txt method introduced in the Get Things Done method.
+Every task you create gets a task ID of its own that gets appended to your task message on the server.
+After which, everytime you would want to update or delete that task, you can use the task ID.
 
 Add task: 
 Add a meeting at a place: `/do add setup meeting with kovtours #social @home due tomorrow.`
@@ -194,11 +196,15 @@ Archive task
 Delete a task: `/do remove i323`
 
 Remove a task completely:
-Destroy a task: `/do destroy i323`
+Destroy a task: `/do DESTROY i323`
 
 #### You Goneby
 Random '.ai' messages from a year ago sent to you every morning. Like a version of yourself messaging you from the past.
 
+#### Contact list
+A personal crm/contact list. Everything you care about anybody you care is listed and found here.
+Gifting preferences, desired places, and so on.
+Birthday reminders are also enabled thanks to this module.
 
-
-
+#### Make Journal letter
+Returns a pdf letter with all journal entries.
