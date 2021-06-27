@@ -1,7 +1,7 @@
 import os
 import logging
 import datetime
-from re import M
+import re
 import parsedatetime
 from pymongo import MongoClient
 
