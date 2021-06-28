@@ -1,22 +1,4 @@
 # Functions for all special functions and abilities
-import re
-
-
-def extract_keywords(message, kwtype):
-    if kwtype == 'hashtag':
-        pattern = re.compile(r"#(\w+)")
-    if kwtype == 'mention':
-        pattern = re.compile(r"@(\w+)")               
-    elif kwtype == 'number':
-        pattern = re.compile(r"\d+")
-    else:
-        print("No keyword found")
-        # keywordList = None
-
-
-    keywordList = pattern.findall(message)
-    return keywordList
-
 
 
 def money_tracker():

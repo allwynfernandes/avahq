@@ -1,5 +1,7 @@
 #  First item of hook value should also be 'ava x' where x is the action.
 HOOKLIST = {
+    'save' : ['ava save ', '.as ', '/save '],
+    'money' : ['ava money ', '.am '],
     'learn' : ['ava learn ', '.al '], # What did you learn today. Reading, watching videos online, external sources.
     'unique' : ['ava unique ', '.au ' ],
     'word' : ['ava word ', '.aw '],
@@ -12,14 +14,13 @@ HOOKLIST = {
     'grateful' : ['ava grateful ', '.ag ' ],
     'forgive' : ['ava forgive ', '.af '],
     'connect' : ['ava connect ', '.ac '],
-    'save' : ['ava save ', '.as ', '/save ', '/s '],
 
 
 
 
     'do' : ['ava do ', '/do ', '/d '],
     'bookmark' : ['ava bookmark ', '/bookmark ', '/b ', 'http', 'file:', 'www'], # Not sure about bookmark, wont work with play.io etc 
-    'show' : ['ava show ', '/show ', '/o '],
+    'show' : ['ava show ', '/show ', '/s '],
     'remind' : ['ava remind ', '/remind ', '/r ', 'ava remind me '],
     'timeit' : ['ava timeit ', '/timeit ', '/t '],
     'shorten' : ['ava shorten ', 'ava short ' ], # shorten url
@@ -31,6 +32,7 @@ INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
 
 DIAPROMPTS = {
 "save" : "Any attachments you would like to share?\n\n👉 ava save OR .as",
+"money" : "What did you spend money on today?\n\n👉 ava money OR .am",
 "learn" : "Which article did you read today?\n\n👉 ava learn OR .al",
 "unique" : "What was unique about today?\n\n👉 ava unique OR .au",
 "word" : "Describe the day in 3 words?\n\n👉 ava word OR .aw",
@@ -90,6 +92,8 @@ For a full list of my skills, check here.
 JOURNALTAGS = '''
 List of journal tags
 ```
+.as save?
+.am money?
 .al learn? 
 .au unique? 
 .aw word?
@@ -102,6 +106,5 @@ List of journal tags
 .ag grateful?
 .af forgive?
 .ac connect?
-.as save?
 ```
 '''

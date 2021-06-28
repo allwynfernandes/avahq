@@ -9,7 +9,8 @@ money = ['.am 200 money testing',
 ]
 
 test_funcs = ['/r call @someone tomorrow at 3pm',
-'/t testing timeit', '/ttesting timeit'
+'/t testing timeit',
+'/ttesting timeit'
 ]
 
 
