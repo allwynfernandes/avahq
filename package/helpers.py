@@ -5,17 +5,17 @@ import datetime
 
 
 def extract_keywords(message, kwtype):
-    if kwtype == 'hashtag':
+    if kwtype == 'hashtags':
         pattern = re.compile(r"#(\w+)") 
-    elif kwtype == 'jourtag': #plan B
+    elif kwtype == 'jourtags': #plan B
         pattern = re.compile(r"^(.*?)\s.*")
-    elif kwtype == 'action':
+    elif kwtype == 'actions':
         pattern = re.compile(r"-(\w+)")
-    elif kwtype == 'mention':
+    elif kwtype == 'mentions':
         pattern = re.compile(r"@(\w+)")               
-    elif kwtype == 'number':
+    elif kwtype == 'numbers':
         pattern = re.compile(r"\d+")
-    elif kwtype == 'requestedMessageId':
+    elif kwtype == 'requestedMessageIds':
         pattern = re.compile(r"id(\d+)")
     else:
         print("No keyword found")
@@ -34,4 +34,10 @@ def extract_date(message):
     '''
     cal = parsedatetime.Calendar()
     return  cal.parseDT(message, datetime.datetime.now())[0]
+
+
+
+def query_db(coll, conditionDict, columnsDict, limit=0, sortBy="_id"):
+    result = coll.find(conditionDict, columnsDict).sort(sortBy, -1).limit(limit)
+    return list(result)
 

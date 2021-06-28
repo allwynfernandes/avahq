@@ -24,10 +24,11 @@ HOOKLIST = {
     'remind' : ['ava remind ', '/remind ', '/r ', 'ava remind me '],
     'timeit' : ['ava timeit ', '/timeit ', '/t '],
     'shorten' : ['ava shorten ', 'ava short ' ], # shorten url
-    'help' : ['ava help ', 'ava help', '/help ', '/help']
+    'help' : ['ava help ', 'ava help', '/help ', '/help'],
+    'jour' : ['ava jour ', 'ava jour ', '/jour']
 }
 
-INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help']
+INTENTLIST = ['do', 'show', 'bookmark', 'remind', 'timeit', 'help', 'jour']
 
 
 DIAPROMPTS = {
