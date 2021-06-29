@@ -26,7 +26,7 @@ def special_reminder():
 def notification_schedule(reply, fromUserId):
     # Following are your reminders for today
     # These are the birthdays today and tomorrow
-    when = datetime.datetime.now().replace(hour=9, minute=1, second=0, microsecond=0):
+    when = datetime.datetime.now().replace(hour=9, minute=1, second=0, microsecond=0)
     # things to do in mjour 1 as per standard scheudle
     # things to do in mjour 2 as per standard scheudle
     # things to do in mjour 3 as per standard scheudle
