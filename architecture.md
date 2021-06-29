@@ -214,3 +214,25 @@ Returns a pdf letter with all journal entries.
 Things that the show command can show include:
 list of all expense categories; list of expense places; 
 list of tasks/reminders for today/this week/this month; completed tasks, pending tasks, archived tasks
+
+#### Weekly Report
+A weekly report sent out to the user that describes the past week on various tags and metrics.
+The output of which is `Do more of this` OR `Do less of this`
+It tells you how to act in the coming week.
+
+Questions include:
+**Jour Tags**
+- Most missed jour tag entry was `jour tag`.  Do more of this.
+- Days(Name) when you made the most and least entries
+- Person about whom you spoke the most in your `.ac` tag.
+- Most contacted person is `person_id` according to .ac
+- There were `x` days when your dayscore was the highiest (4).
+- lowest dayscore is from `date`. Here is your reason for it `.ay`.
+- Ratio of days with `.ad` above and below 3. This is your average days of joy for the week.
+- Highest number of `.ap` upset posts are from `this day`
+- Top 5 things you were most grateful for this week include `.ag .title list`
+
+**Money**
+- Spent most on `category` and at `place/person` this week according to your `.am`
+- Saved most on `category` this week. Perhaps you are denying yourself of this.
+- Highiest single spending was in `category` on `item`. Slow down a bit there perhaps?

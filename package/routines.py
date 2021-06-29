@@ -1,8 +1,5 @@
 import datetime
 import pytz
-from package.bot import Bot
-from server import API_KEY
-bot = Bot(API_KEY)
 
 # These are a set of routines or activities that have to be performed either
 # (a) continually in parallel with other tasks. Eg: While loop checking for message from user
@@ -27,6 +24,7 @@ def special_reminder():
 def notification_schedule(reply, fromUserId):
     # Following are your reminders for today
     # These are the birthdays today and tomorrow
+    # Todays's budget for your spend categories is as follows {key:val}
     when = datetime.datetime.now().replace(hour=9, minute=1, second=0, microsecond=0)
     # things to do in mjour 1 as per standard scheudle
     # things to do in mjour 2 as per standard scheudle
