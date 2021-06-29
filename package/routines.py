@@ -31,7 +31,7 @@ def notification_schedule(reply, fromUserId):
     # things to do in mjour 3 as per standard scheudle
     # things to do in mjour 4 as per standard scheudle
     
-    if when == datetime.now().replace(second=0, microsecond=0):
+    if when == datetime.datetime.now().replace(second=0, microsecond=0):
         reply = None
         if reply != None:
             bot.send_message(reply,fromUserId)

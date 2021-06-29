@@ -116,11 +116,26 @@ class Message:
 
             elif self.hook == 'show':
                 self.dtExtracted = extract_date(self.message)
+
+                # == REMINDER SKILL == #
                 if 'reminders' in self.message.lower():
-                    self.dbSearchOperator = "$eq" if "today" in self.message.lower() else "gte"
-                    self.dbSearchQuery = {'isReminder':True, 'fromUserId':self.fromUserId, 'dtExtracted':{self.dbSearchOperator:self.dtExtracted}}
+                    if "day" in self.message.lower():
+                        self.dtExtracted = self.dtExtracted.replace(hour=0, minute=0, second=0, microsecond=0) #datetime.date.today() 
+                        self.dbSearchOperator = ["$gte", "$lt"]
+                        self.dbSearchQuery = {
+                            'isReminder':True, 
+                            'fromUserId':self.fromUserId, 
+                            'dtExtracted':{self.dbSearchOperator[0]:self.dtExtracted,self.dbSearchOperator[1]:self.dtExtracted+datetime.timedelta(days=1)}
+                            }                            
+                    else:
+                        self.dbSearchOperator = "$gte"
+                        self.dbSearchQuery = {'isReminder':True, 'fromUserId':self.fromUserId, 'dtExtracted':{self.dbSearchOperator:self.dtExtracted}}
                     self.dbProjection = {'_id':0, 'messageId':1, 'body':1 } # Alert: Can extract only 2 fields at a time using dict instead of pandas
-                    limit = 0
+                    limit = 0    
+                    # self.dbSearchOperator = "$eq" if "today" in self.message.lower() else "$gte"
+                    # self.dbSearchQuery = {'isReminder':True, 'fromUserId':self.fromUserId, 'dtExtracted':{self.dbSearchOperator:self.dtExtracted}}
+                    # self.dbProjection = {'_id':0, 'messageId':1, 'body':1 } # Alert: Can extract only 2 fields at a time using dict instead of pandas
+                    # limit = 0
                     self.serviceReply = show_records(collection, self.dbSearchQuery, self.dbProjection, limit)
                     self.isDeletable = False
                     # working mongo query:  db.responses.find({$and: [{'isReminder':true}, {dtExtracted:{$gt:ISODate('2021-05-01')}} ]},{_id:0, title:1, dtExtracted:1})
@@ -128,6 +143,8 @@ class Message:
                     # self.dbProjection = {'_id':0, 'title':1, 'dtExtracted':1}
                     # self.searchResult = self.search_db(collection)
                 # self.serviceReply = "Feature in development 💌" 
+
+                # == REMINDER SKILL END == #
 
 
             elif self.hook == 'do':
