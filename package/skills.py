@@ -19,7 +19,7 @@ def journal_letter():
 def show_records(coll=None, conditionDict=None, columnsDict=None, limit=0 ):
     queryResult = query_db(coll, conditionDict, columnsDict, limit, sortBy="dtExtracted")
     result = dict((x.values()) for x in queryResult)
-    result = str(result).replace(",", "\n").replace("{", "").replace("}", "")
+    result = str(result).replace(", ", "\n").replace("{", "").replace("}", "")
 
 
     # df = pd.DataFrame(queryResult)

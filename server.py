@@ -10,6 +10,7 @@ from pymongo import MongoClient
 from package.constants import *
 from package.messageobj import Message
 from package.bot import Bot
+from package.routines import notification_schedule
 # from feature_functions import *
 # from common_functions import *
 
@@ -77,10 +78,8 @@ def main(update_id):
 
                     reply = order.serviceReply
                     bot.send_message(reply,fromUserId)
-
-                    deleteWaitTime = 10 if order.hook in list(DIAPROMPTS) else 3
-                    bot.delete_message(chatId, messageId, deleteWaitTime, condition=order.isDeletable)
-
+                    bot.delete_message(chatId, messageId, order.deleteWaitTime, condition=order.isDeletable)
+                    # notification_schedule()
 
 
 if __name__ == '__main__':
