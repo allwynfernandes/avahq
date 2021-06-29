@@ -6,7 +6,6 @@ import parsedatetime
 from pymongo import MongoClient
 
 
-
 from package.constants import *
 from package.messageobj import Message
 from package.bot import Bot
