@@ -1,5 +1,4 @@
 import datetime
-import pytz
 
 # These are a set of routines or activities that have to be performed either
 # (a) continually in parallel with other tasks. Eg: While loop checking for message from user
