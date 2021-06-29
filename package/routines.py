@@ -1,6 +1,7 @@
 import datetime
 import pytz
 from package.bot import Bot
+from server import API_KEY
 bot = Bot(API_KEY)
 
 # These are a set of routines or activities that have to be performed either
