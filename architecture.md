@@ -208,3 +208,9 @@ Birthday reminders are also enabled thanks to this module.
 
 #### Make Journal letter
 Returns a pdf letter with all journal entries.
+
+
+#### Show command
+Things that the show command can show include:
+list of all expense categories; list of expense places; 
+list of tasks/reminders for today/this week/this month; completed tasks, pending tasks, archived tasks

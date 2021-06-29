@@ -79,8 +79,7 @@ def main(update_id):
                     reply = order.serviceReply
                     bot.send_message(reply,fromUserId)
 
-                    deleteWaitTime = 10 if order.hook in list(DIAPROMPTS) else 3
-                    bot.delete_message(chatId, messageId, deleteWaitTime, condition=order.isDeletable)
+                    bot.delete_message(chatId, messageId, order.deleteWaitTime, condition=order.isDeletable)
 
 
 
