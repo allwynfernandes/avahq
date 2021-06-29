@@ -16,7 +16,7 @@ def extract_keywords(message, kwtype):
     elif kwtype == 'numbers':
         pattern = re.compile(r"\d+")
     elif kwtype == 'requestedMessageIds':
-        pattern = re.compile(r"id(\d+)")
+        pattern = re.compile(r"i(\d+)")
     else:
         print("No keyword found")
         # keywordList = None
