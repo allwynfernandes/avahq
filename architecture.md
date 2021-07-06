@@ -236,3 +236,39 @@ Questions include:
 - Spent most on `category` and at `place/person` this week according to your `.am`
 - Saved most on `category` this week. Perhaps you are denying yourself of this.
 - Highiest single spending was in `category` on `item`. Slow down a bit there perhaps?
+
+#### Send Tweet
+Send a quick tweet without opening twitter.
+`/tweet Hey so I finally found out why plants are blue... chlorofeels`
+
+#### Create a fake temporary email address
+Resources: https://docs.mail.tm/
+
+#### Things to do when bored
+Random activities to fight boredom
+`/bored relaxation`
+Resource https://www.boredapi.com/
+
+#### Random activity for today
+ref: `https://www.boredapi.com/activity?participants=2
+
+#### Flip a coin
+Unable to take a decision? Let ava flip a coin for you.
+Replies with a gif for a yes or no.
+`ava flip`
+https://rdrr.io/cran/telegram.bot/man/sendPhoto.html
+https://core.telegram.org/bots/api#sendphoto
+use reply to message parameter in this and send_message func
+
+#### Trivia questions
+`ava trivia books`
+https://opentdb.com/api_config.php
+
+
+#### Tell a joke 
+Tells a joke or a pickup line based on request
+https://icanhazdadjoke.com/search?term=hipster
+http://jokes.boo.co.nz/page/4836
+
+https://generatorfun.com/pickup-line-generator
+Custom pickup lines based on names https://patook.com/Blog/PULines#
