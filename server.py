@@ -5,7 +5,7 @@ import re
 import parsedatetime
 from pymongo import MongoClient
 
-# Qovery commit on [[2021-07-09]]
+# Commit cause : testing via test token
 
 from package.constants import *
 from package.messageobj import Message
@@ -17,7 +17,7 @@ from package.routines import notification_schedule
 logging.basicConfig(filename="server_py_log.txt", format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 # logging.disable(logging.CRITICAL)
 
-API_KEY = os.getenv("TG_BOT_TOKEN_AVAHQ")
+API_KEY = os.getenv("TG_BOT_TOKEN_TEST")
 MONGO_CONNECTION = os.getenv("MONGO_URI")
 
 client = MongoClient(MONGO_CONNECTION)
