@@ -2325,3 +2325,17 @@
 2021-07-10 19:12:07,995 - root - INFO - Update ID: 917102380
 2021-07-10 19:12:07,995 - root - INFO - Update Value: {'ok': True, 'result': []}
 2021-07-10 19:12:07,995 - root - INFO - Updates received, Commence looping over elements
+2021-07-10 20:27:12,841 - root - INFO - Constants and Keys loaded successfully
+2021-07-10 20:27:12,841 - root - INFO - Bot Started Successfully at: 2021-07-10 20:27:12.841675
+2021-07-10 20:27:13,351 - root - INFO - Update ID: None
+2021-07-10 20:27:13,351 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102381, 'message': {'message_id': 244, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1625928648, 'text': '.as testing on mongo uri atlas'}}]}
+2021-07-10 20:27:13,352 - root - INFO - Updates received, Commence looping over elements
+2021-07-10 20:27:13,352 - root - INFO - this is item{'update_id': 917102381, 'message': {'message_id': 244, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1625928648, 'text': '.as testing on mongo uri atlas'}}
+2021-07-10 20:27:13,352 - root - INFO - Pushing data to database
+2021-07-10 20:27:13,358 - root - INFO - Message: (False, 'save', 'testing on mongo uri atlas', '👍 Save\n\n☝️ What did you spend money on today?\n\n👉 ava money OR .am') 
+2021-07-10 20:27:39,708 - root - INFO - Update ID: 917102381
+2021-07-10 20:27:39,709 - root - INFO - Update Value: {'ok': True, 'result': [{'update_id': 917102382, 'message': {'message_id': 246, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1625929059, 'text': '.as testing mongo uri again'}}]}
+2021-07-10 20:27:39,709 - root - INFO - Updates received, Commence looping over elements
+2021-07-10 20:27:39,709 - root - INFO - this is item{'update_id': 917102382, 'message': {'message_id': 246, 'from': {'id': 580479319, 'is_bot': False, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'language_code': 'en'}, 'chat': {'id': 580479319, 'first_name': 'Emperor', 'last_name': 'Kafs', 'username': 'wynio', 'type': 'private'}, 'date': 1625929059, 'text': '.as testing mongo uri again'}}
+2021-07-10 20:27:39,709 - root - INFO - Pushing data to database
+2021-07-10 20:27:39,712 - root - INFO - Message: (False, 'save', 'testing mongo uri again', '👍 Save\n\n☝️ What did you spend money on today?\n\n👉 ava money OR .am') 
